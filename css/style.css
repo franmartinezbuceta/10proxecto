@@ -21,7 +21,7 @@ body {
     width: 90%;
     /*El contenido no llega hasta los extremos de la pantalla*/
     max-width: 1200px;
-    /*Aunque abramos la web en un dispositivo enorme, nunca va a superar los 1200px y se joda el diseño*/
+    /*Aunque abramos la web en un dispositivo enorme, nunca va a superar los 1200px y se rompa el diseño*/
     margin: 0 auto;
     /**Esto hace que esté centrado*/
     overflow: hidden;
@@ -339,7 +339,7 @@ body {
 
 .testimony__body--show {
     pointer-events: unset;
-    /*Neutraliza la declaración anterior, no sé pa que*/
+    /*Neutraliza la declaración anterior*/
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
     /*Se aconseja transicionar casi cualquier elemento, a excepción del margen*/
@@ -388,14 +388,14 @@ body {
     padding: 0;
     transition: padding .3s;
     border: 1px solid #5454d4;
-    border-radius: 6;
+    border-radius: 6px;
 }
 
-.questions__padding {
+.questions__padding--add {
     padding-bottom: 30px;
 }
 
-.questions_answer {
+.questions__answer {
     padding: 0 30px 0;
     overflow: hidden;
 }
