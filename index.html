@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>efe punto - Curso de CSS</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container"> <!--dos clases separadas por un espacio-->
+            <div class="nav__log">
+                <h2 class="nav_title">efe punto</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items"><a href="./index.html" class="nav__links">Inicio</a></li>
+                <li class="nav__items"><a href="./acercade.html" class="nav__links">Acerca de</a></li>
+                <li class="nav__items"><a href="./contacto.html" class="nav__links">Contacto</a></li>
+                <li class="nav__items"><a href="./blog.html" class="nav__links">Blog</a></li>
+
+                <img src="./img/close.svg" alt="Icono de peche do menú" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./img/menu.svg" alt="Icono para el menú responsivo" class="nav__img">
+            </div>
+
+        </nav>
+
+        <section class="container hero__container">
+            <h1 class="hero__title"> Aprende CSS dende CERO ata dominalo</h1>
+            <p class="hero__paragraph">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ullam cum expedita doloribus
+                quibusdam quia quos, esse libero, consequuntur rem vero molestias recusandae aperiam eaque quisquam
+                similique. Quod, minus accusamus.
+            </p>
+
+            <a href="#" class="cta">Comeza agora</a>
+        </section>
+
+
+
+    </header>
+
+
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Qué aprenderás neste curso</h2>
+            <p class="about__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae laudantium
+                excepturi sit id! Adipisci, possimus.</p>
+            <div class="about__main">
+                <article class="about__icons"><img src="./img/shapes.svg" alt="Icono de CSS Layouts"
+                        class="about__icon">
+                    <h3 class="about__title">CSS Layouts</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                        expedita id deleniti possimus.</p>
+                </article>
+                <article class="about__icons"><img src="./img/paint.svg" alt="Icono de Animacións" class="about__icon">
+                    <h3 class="about__title">Animacións</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                        expedita id deleniti possimus.</p>
+                </article>
+                <article class="about__icons"><img src="./img/code.svg" alt="Icono de Sass" class="about__icon">
+                    <h3 class="about__title">Sass</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                        expedita id deleniti possimus.</p>
+                </article>
+            </div>
+        </section>
+
+       
+
+        <section class="container price">
+            <h2 class="subtitle">Obtén el plan perfecto para aprender</h2>
+            <div class="price__table">
+
+                <div class="price__element">
+                    <p class="price__name">Flexbox</p>
+                    <h3 class="price__price">Free</h3>
+                    <div class="price__items">
+                        <p class="price__features">Flexbox</p>
+                        <p class="price__features">Layouts</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+                    <a href="" class="price__cta">Empeza agora</a>
+                </div>
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">60&euro;/mes</h3>
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+                    <a href="" class="price__cta">Empeza agora</a>
+                </div>
+
+                <div class="price__element">
+                    <p class="price__name">Animations</p>
+                    <h3 class="price__price">60&euro;/mes</h3>
+                    <div class="price__items">
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Transition</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+
+                    <a href="" class="price__cta">Empeza agora</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="container testimony__container">
+                <img src="./img/leftarrow.svg" alt="Flecha de navegación cara atrás" class="testimony__arrow"
+                    id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Sabela Xove, <span class="testimony__course"> estudante de
+                                CSS</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+                            soluta ullam, libero reprehenderit totam facere sint ad laudantium? Id, in aperiam! Ratione
+                            officiis, facilis officia numquam dolore aliquam quisquam quam!</p>
+                    </div>
+                    <figure class="testimony__picture"><img src="./img/face.jpg" alt="Foto do alumno 1"
+                            class="testimony__img"></figure>
+                </section>
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">O meu nome é Alexa Lérez, <span class="testimony__course"> estudante de
+                                UI/UX</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                            harum quia non eius id, perferendis labore voluptas sit quos dolor repellat odio accusamus
+                            autem, nobis temporibus voluptates, commodi nesciunt quisquam.</p>
+                    </div>
+                    <figure class="testimony__picture"><img src="./img/face2.jpg" alt="Foto do alumno 2"
+                            class="testimony__img">
+                    </figure>
+                </section>
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">O meu nome é Xian Aldeavella, <span class="testimony__course"> estudante de
+                                Frontend</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+                            necessitatibus explicabo id ut incidunt debitis quos eaque veritatis saepe, neque
+                            voluptatibus facilis ad amet eos!</p>
+                    </div>
+                    <figure class="testimony__picture"><img src="./img/face3.jpg" alt="Foto do alumno 3"
+                            class="testimony__img">
+                    </figure>
+                </section>
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">O meu nome é Uxía Sobreira , <span class="testimony__course"> estudante de
+                                CSS
+                            </span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                            accusantium dolor veritatis sed unde architecto, deleniti ipsa autem quisquam quos vel neque
+                            error deserunt. Accusantium, doloribus? Voluptatibus tempora optio sed!</p>
+                    </div>
+                    <figure class="testimony__picture"><img src="./img/face4.jpg" alt="Foto do alumno 4"
+                            class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./img/rightarrow.svg" alt="Flecha de navegación cara adiante" class="testimony__arrow"
+                    id="after">
+            </div>
+        </section>
+
+        <section class="container questions">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
+                doloribus voluptate accusantium iste ut ratione?</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            ¿Qué es CSS?
+                            <span class="questions__arrow"><img src="./img/arrow.svg" alt="Despregar contidos"
+                                    class="questions__img"></span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto
+                            aspernatur iste sapiente facere tempore eos officiis repudiandae magni error cupiditate,
+                            quidem
+                            odio qui nostrum ad eaque repellendus possimus impedit! Exercitationem ipsam voluptas saepe
+                            recusandae alias ab officiis officia numquam nam!</p>
+                    </div>
+                </article>
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            ¿Qué aprenderé en este curso?
+                            <span class="questions__arrow"><img src="./img/arrow.svg" alt="Despregar contidos"
+                                    class="questions__img"></span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
+                            necessitatibus aspernatur! Rerum perspiciatis, vitae quos dolore corrupti illum commodi amet
+                            itaque veniam perferendis animi deserunt eveniet doloribus et officia asperiores, sit
+                            accusamus
+                            tempora aliquam cum, qui possimus incidunt reprehenderit nihil.</p>
+                    </div>
+                </article>
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">
+                            ¿Qué es CSS Grid
+                            <span class="questions__arrow"><img src="./img/arrow.svg" alt="Despregar contidos"
+                                    class="questions__img"></span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eius
+                            illum
+                            corporis possimus aut! Praesentium error distinctio blanditiis quos quo commodi. Nisi quidem
+                            provident dolorum aperiam voluptas maiores distinctio quis, praesentium id? Ratione, saepe
+                            pariatur.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">Estás listx para aprender CSS</h2>
+                <p class="questions__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                    exercitationem
+                    aliquid, in at ducimus voluptas! Tempora aliquam id delectus soluta fuga fugit alias, ipsum, dolore
+                    voluptatibus nobis dolor nihil aliquid.</p>
+                <a href="#" class="cta">Aprende ahora</a>
+            </section>
+        </section>
+    </main>
+
+
+
+    <footer class="footer">
+        <section class="container footer__container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Curso CSS</h2>
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items"><a href="#" class="nav__links">Inicio</a></li>
+                    <li class="nav__items"><a href="#" class="nav__links">Acerca de</a></li>
+                    <li class="nav__items"><a href="#" class="nav__links">Contacto</a></li>
+                    <li class="nav__items"><a href="#" class="nav__links">Blog</a></li>
+                </ul>
+            </nav>
+            <form action="#" class="footer__form" method="post"> <!-- method post es para enviar-->
+                <h2 class="footer__newsletter">Subscríbete á newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" class="footer__input" name="replyto" placeholder="Email:" required>
+                    <!--INPUTS tiene que llevar siempre un "name", sino cuando recibes la información no sabes qué es. El "submit" no tiene por qué llevar nombre porque no porta información-->
+                    <input type="submit" class="footer__submit" value="Rexístrate">
+                </div>
+            </form>
+        </section>
+        <section class="container footer__copy">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./img/facebook.svg" alt="Icono de Facebook"
+                        class="footer_img"></a>
+                <a href="#" class="footer__icons"><img src="./img/twitter.svg" alt="Icono de Twitter"
+                        class="footer_img"></a>
+                <a href="#" class="footer__icons"><img src="./img/youtube.svg" alt="Icono de Youtube"
+                        class="footer_img"></a>
+            </div>
+            <h3 class="footer__copyright">
+                Curso CSS &copy; 2025
+            </h3>
+        </section>
+    </footer>
+
+    <!-- SCRIPTS-->
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
