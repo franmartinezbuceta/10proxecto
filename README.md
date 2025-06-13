@@ -48,3 +48,6 @@ Elaborar conxuntamente a páxina de INICIO e facer individualmente os apartados 
 - **GRID:** [Tutorial de GRID en MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout)
 
 ---
+
+## IMAXE DO PROXECTO
+![Captura de pantalla](./10proxecto.png)
